@@ -29,7 +29,7 @@ export default function Register() {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="w-full md:h-full md:max-w-[400px] md:border  md:min-h-[90vh] flex flex-col justify-start h-screen px-4 pt-10">
+    <form onSubmit={handleSubmit} className="w-full md:h-full md:max-w-[400px] md:border  md:min-h-[90vh] flex flex-col justify-start h-screen px-5 pt-10">
       <div className="overflow-y-auto flex-1 space-y-4 pb-4">
         <h2 className="text-3xl font-semibold">Create your <br /> PopX account</h2>
 
